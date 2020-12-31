@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #F2F2F2;
+}
+
+
+header{
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   font-weight: 600;
+   text-align: center;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    background: #F2F2F2;
+    /* padding: 48px; */
+    height: auto;
+}
+
+.content__image{
+width: 100%;
+height: auto;
+object-fit: cover;
+}
+
+.content__body{
+padding: 20px;
+ background: #FFFFFF;
+border-radius: 12px;
+width: auto;
+height: auto;
+margin: 30px 30px;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content__tag{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+margin: 15px;
+
+color: #4F4F4F;
+}
+
+.content__title{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+margin-bottom: 20px;
+color: #333333;
+}
+
+.content__description{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+     margin-right: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button > a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.content__demo{
+    outline: none;
+    border: 1px solid #5C94E1;
+    width: 135px;
+    height: 46px;
+    left: 215px;
+    top: 2286px;
+    background: #5C94E1;
+    border-radius: 12px;
+}
+
+.content__code{
+    width: 118px;
+    height: 46px;
+    left: 720px;
+    top: 2286px;
+    outline: none;
+    border: 1px solid #5C94E1;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+@media only screen and (min-width: 1024px) {
+
+body{
+    background-color:  #F2F2F2;
+}
+
+
+    .container{
+        width: 60%;
+        margin: 0 auto;
+        background: #F2F2F2;
+        /* padding: 48px; */
+        height: auto;
+    }
+    .content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .content__body{
+        padding: 20px;
+         background: #FFFFFF;
+        border-radius: 12px;
+        width: 328.49px;
+        height: 568px;
+        margin: 30px 30px;
+        }
+
+
+
+  }
