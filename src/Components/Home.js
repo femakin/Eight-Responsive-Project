@@ -220,7 +220,7 @@ export default function Home() {
         </p>
         <button className="content__demo">
           {" "}
-          <a href="https://%7Byour-demo-link.your-domain%7D/" className="btn1">
+          <a href="https://devchallengeportfolio.netlify.app/" className="btn1">
             Demo
           </a>
         </button>
